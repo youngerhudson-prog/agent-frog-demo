@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* The host page only. Everything the demo draws is scoped under .af-demo in src/demo/demo.css,
+   so the demo can later move into the main app as a dashboard tab without leaking styles. */
+html,
+body {
+  margin: 0;
+  background: #1b1512;
+  color-scheme: dark;
+}
+html {
+  scroll-padding: 5rem 0 6rem;
+}
